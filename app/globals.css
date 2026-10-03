@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f6f3ee;
+  --color-paper-2: #efeae2;
+  --color-ink: #151413;
+  --color-ink-2: #3b3936;
+  --color-muted: #6d6962;
+  --color-line: rgba(21, 20, 19, 0.12);
+  --color-line-strong: rgba(21, 20, 19, 0.28);
+
+  /* Brand pastels, used as project accents */
+  --color-sky: #9ddcff;
+  --color-butter: #ffe68c;
+  --color-blush: #ffc9f0;
+  --color-mint: #bfe8c6;
+  --color-lilac: #d9d2ff;
+
+  --radius-card: 22px;
+  --radius-card-sm: 12px;
+
+  --ease-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  --animate-spin-slow: spin 18s linear infinite;
+  --animate-marquee: marquee 32s linear infinite;
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/*
+ * Fonts are self-hosted by next/font (app/layout.tsx). The stacks name the families
+ * directly instead of using its --font-* variables, which also pull in a size-adjusted
+ * Arial/Times fallback: glyphs the fonts lack (→, ✦) must fall back to these stacks.
+ */
+@theme {
+  --font-serif: "Instrument Serif", "Times New Roman", serif;
+  --font-sans: "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+:root {
+  --gutter: clamp(20px, 4vw, 48px);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  p {
+    margin: 0 0 1em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 400;
+    line-height: 1.05;
+  }
+
+  ::selection {
+    background: var(--color-butter);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+/* Applied by <ScrollReveal /> to elements below the fold */
+[data-reveal] {
+  transition:
+    opacity 0.8s var(--ease-soft),
+    transform 0.8s var(--ease-soft);
+}
+[data-reveal].is-hidden {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  [data-reveal].is-hidden {
+    opacity: 1;
+    transform: none;
+  }
+}
