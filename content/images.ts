@@ -3,6 +3,13 @@ import aboutPortrait from "@/assets/images/about-sadia-portrait.webp";
 import absence1 from "@/assets/images/absence-1.webp";
 import absence2 from "@/assets/images/absence-2.webp";
 import absenceCover from "@/assets/images/absence-cover.webp";
+import cashboxAccounts from "@/assets/images/cashbox-accounts.webp";
+import cashboxConnected from "@/assets/images/cashbox-connected.webp";
+import cashboxCover from "@/assets/images/cashbox-cover.webp";
+import cashboxEvolution from "@/assets/images/cashbox-evolution.webp";
+import cashboxGuardrails from "@/assets/images/cashbox-guardrails.webp";
+import cashboxProcess from "@/assets/images/cashbox-process.webp";
+import cashboxV1 from "@/assets/images/cashbox-v1.webp";
 import flutter1 from "@/assets/images/flutter-1.webp";
 import flutter2 from "@/assets/images/flutter-2.webp";
 import flutterCover from "@/assets/images/flutter-cover.webp";
@@ -41,6 +48,13 @@ export const images = {
   absence1,
   absence2,
   absenceCover,
+  cashboxAccounts,
+  cashboxConnected,
+  cashboxCover,
+  cashboxEvolution,
+  cashboxGuardrails,
+  cashboxProcess,
+  cashboxV1,
   flutter1,
   flutter2,
   flutterCover,

@@ -8,6 +8,7 @@ const accentBg: Record<Accent, string> = {
   blush: "bg-blush",
   sky: "bg-sky",
   mint: "bg-mint",
+  butter: "bg-butter",
 };
 
 type WorkCardProps = WorkCardData & { headingAs?: "h2" | "h3" };

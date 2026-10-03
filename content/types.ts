@@ -1,6 +1,6 @@
 import type { StaticImageData } from "next/image";
 
-export type Accent = "blush" | "sky" | "mint";
+export type Accent = "blush" | "sky" | "mint" | "butter";
 
 export type Picture = {
   src: StaticImageData;

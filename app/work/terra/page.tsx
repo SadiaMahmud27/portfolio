@@ -57,13 +57,13 @@ export default function TerraPage() {
       }}
       toc={toc}
       next={{
-        href: routes.inboxswipe,
+        href: routes.cashbox,
         title: (
           <>
-            Inbox<em>Swipe</em> →
+            Cash<em>box</em> →
           </>
         ),
-        image: images.inboxswipeCover,
+        image: images.cashboxCover,
       }}
     >
       <CaseSection

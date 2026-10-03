@@ -50,6 +50,7 @@ export function CaseStudyLayout({
                 sizes="(max-width: 1320px) 100vw, 1224px"
                 loading="eager"
                 fetchPriority="high"
+                quality={90}
                 className="w-full"
               />
             </div>

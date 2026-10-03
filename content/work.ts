@@ -32,6 +32,16 @@ export const caseStudies: WorkCardData[] = [
     tags: ["Mobile", "4 months", "Figma"],
     image: { src: images.terraCover, alt: "Terra splash and home screens" },
   },
+  {
+    href: routes.cashbox,
+    accent: "butter",
+    index: "04 · Case study",
+    title: "Cashbox",
+    description:
+      "A brand-new cash and account tracker for Hishabee, shipped simple first and grown into a connected second version.",
+    tags: ["Mobile", "Hishabee", "V1 → V2"],
+    image: { src: images.cashboxCover, alt: "Cashbox version 1 and version 2 screens" },
+  },
 ];
 
 export type Exploration = {
@@ -49,7 +59,7 @@ export type Exploration = {
 export const explorations: Exploration[] = [
   {
     id: "plantera",
-    number: "04",
+    number: "05",
     title: "Plantera E-commerce Website",
     meta: ["Web", "1 week", "Figma"],
     description:
@@ -63,7 +73,7 @@ export const explorations: Exploration[] = [
   },
   {
     id: "absence",
-    number: "05",
+    number: "06",
     title: "Employee Absence Tracker",
     meta: ["Dashboard", "2 weeks", "Figma"],
     description:
@@ -82,7 +92,7 @@ export const explorations: Exploration[] = [
   },
   {
     id: "flutter",
-    number: "06",
+    number: "07",
     title: "Flutter Boilerplate",
     meta: ["Landing page", "2 weeks", "Figma"],
     description:
@@ -97,7 +107,7 @@ export const explorations: Exploration[] = [
   },
   {
     id: "todo",
-    number: "07",
+    number: "08",
     title: "To-do List",
     meta: ["Mobile", "1 week", "Figma"],
     description:
@@ -113,7 +123,7 @@ export const explorations: Exploration[] = [
   },
   {
     id: "notes",
-    number: "08",
+    number: "09",
     title: "Simple Note-taking App",
     meta: ["Mobile", "1 week", "UI study"],
     description:

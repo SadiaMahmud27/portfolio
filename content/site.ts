@@ -13,6 +13,7 @@ export const routes = {
   inboxswipe: "/work/inboxswipe",
   selise: "/work/selise-legal-templates",
   terra: "/work/terra",
+  cashbox: "/work/cashbox",
 };
 
 export type FooterLink = { label: string; href: string; external?: boolean };
