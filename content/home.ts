@@ -5,8 +5,12 @@ import type { Picture, WorkCardData } from "./types";
 export const stats = [
   { term: "Screens designed", value: "50+", label: "High-fidelity fintech screens" },
   { term: "Product modules", value: "10+", label: "Core product modules shipped" },
-  { term: "Legal templates", value: "26", label: "Bilingual legal templates designed" },
-  { term: "Live apps", value: "2", label: "App stores InboxSwipe is live on" },
+  { term: "Product lines", value: "4", label: "Product lines sharing my UI standards" },
+  {
+    term: "Built from scratch",
+    value: "0→1",
+    label: "Prime Neo-pay and Cashbox, from first sketch",
+  },
 ];
 
 export const services: { emphasis?: string; rest: string }[] = [
@@ -18,16 +22,16 @@ export const services: { emphasis?: string; rest: string }[] = [
 
 export const featuredWork: WorkCardData[] = [
   {
-    href: routes.inboxswipe,
-    accent: "blush",
-    index: "01 · Mobile app · Live on iOS & Android",
-    title: "InboxSwipe",
+    href: routes.cashbox,
+    accent: "butter",
+    index: "01 · Mobile app · Hishabee",
+    title: "Cashbox",
     description:
-      "A gesture-based email app that turns inbox cleaning into a quick, satisfying swipe, one card at a time.",
-    tags: ["Mobile", "Interaction design", "6 months"],
+      "A brand-new cash and account tracker for small business owners, shipped simple first and grown into a connected second version.",
+    tags: ["Mobile", "Product design", "V1 → V2"],
     image: {
-      src: images.inboxswipeCover,
-      alt: "InboxSwipe onboarding and inbox screens on a pink gradient",
+      src: images.cashboxCover,
+      alt: "Cashbox version 1 transaction list beside the version 2 accounts overview",
     },
   },
   {
@@ -44,34 +48,42 @@ export const featuredWork: WorkCardData[] = [
     },
   },
   {
-    href: routes.terra,
-    accent: "mint",
-    index: "03 · Mobile app · Concept",
-    title: "Terra",
+    href: routes.inboxswipe,
+    accent: "blush",
+    index: "03 · Mobile app · Live on iOS & Android",
+    title: "InboxSwipe",
     description:
-      "An eco habit tracker that makes sustainable living a simple daily practice, with clear actions, gentle streaks and visible CO₂ impact.",
-    tags: ["Mobile", "Behaviour design", "4 months"],
+      "A gesture-based email app that turns inbox cleaning into a quick, satisfying swipe, one card at a time.",
+    tags: ["Mobile", "Interaction design", "6 months"],
     image: {
-      src: images.terraCover,
-      alt: "Terra splash screen with illustrated Earth and daily habits home screen",
+      src: images.inboxswipeCover,
+      alt: "InboxSwipe onboarding and inbox screens on a pink gradient",
     },
   },
 ];
 
-export const moreExplorations: { href: string; title: string; meta: string; image: Picture }[] = [
+export const moreExplorations: {
+  href: string;
+  title: string;
+  meta: string;
+  image: Picture;
+}[] = [
   {
     href: `${routes.work}#plantera`,
     title: "Plantera",
     meta: "E-commerce web",
-    image: { src: images.planteraCover, alt: "Plantera e-commerce website screens" },
+    image: {
+      src: images.planteraCover,
+      alt: "Plantera e-commerce website screens",
+    },
   },
   {
-    href: `${routes.work}#absence`,
-    title: "Absence Tracker",
-    meta: "Dashboard",
+    href: `${routes.work}#flutter`,
+    title: "Flutter Boilerplate",
+    meta: "Landing page",
     image: {
-      src: images.absenceCover,
-      alt: "Employee absence tracker dashboard in dark and light mode",
+      src: images.flutterCover,
+      alt: "Flutter Boilerplate landing page hero",
     },
   },
   {
