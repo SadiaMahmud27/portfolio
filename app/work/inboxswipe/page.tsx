@@ -52,7 +52,11 @@ export default function InboxSwipePage() {
       meta={[
         { term: "Role", value: "Product & UI/UX design" },
         { term: "Duration", value: "6 months" },
-        { term: "Tools", value: "Figma" },
+        {
+          term: "Shot",
+          value: "View on Dribbble ↗",
+          href: "https://dribbble.com/shots/26843390-InboxSwipe-Reach-Inbox-Zero-One-Swipe-At-A-Time",
+        },
         { term: "Status", value: "Live on iOS & Android ↗", href: SITE_URL },
       ]}
       cover={{ src: images.inboxswipeCover, alt: "InboxSwipe onboarding and inbox screens" }}

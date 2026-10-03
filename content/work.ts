@@ -64,6 +64,10 @@ export const explorations: Exploration[] = [
     meta: ["Web", "1 week", "Figma"],
     description:
       "A minimalist, high-contrast layout that tells the story through imagery. A bold hero, organised category grids and prominent CTAs streamline the conversion funnel, while an Instagram feed and reviews add social proof.",
+    link: {
+      label: "View on Dribbble ↗",
+      href: "https://dribbble.com/shots/25005746--003-Landing-page",
+    },
     galleryLabel: "Plantera screens",
     showHint: false,
     images: [
@@ -97,6 +101,10 @@ export const explorations: Exploration[] = [
     meta: ["Landing page", "2 weeks", "Figma"],
     description:
       "A scalable landing page for a Flutter starter system that makes onboarding clearer and cuts developer setup friction.",
+    link: {
+      label: "View on Dribbble ↗",
+      href: "https://dribbble.com/shots/24824933-Flutter-Boilerplate",
+    },
     galleryLabel: "Flutter Boilerplate screens",
     showHint: true,
     images: [
@@ -112,6 +120,10 @@ export const explorations: Exploration[] = [
     meta: ["Mobile", "1 week", "Figma"],
     description:
       "A minimalist, card-based task manager. Progress rings and gamified achievement screens give visual feedback, and high-contrast CTAs carry users from scheduling to completion.",
+    link: {
+      label: "View on Dribbble ↗",
+      href: "https://dribbble.com/shots/26086839-To-do-list-mobile-app",
+    },
     galleryLabel: "To-do list screens",
     showHint: true,
     images: [
@@ -128,6 +140,10 @@ export const explorations: Exploration[] = [
     meta: ["Mobile", "1 week", "UI study"],
     description:
       "A UI study recreating a fellow designer's note-taking app. Colourful cards make notes easy to spot, the editor stays minimal, and a bottom sheet makes sorting into categories quick.",
+    link: {
+      label: "View on Dribbble ↗",
+      href: "https://dribbble.com/shots/26070088-Simple-note-taking-app",
+    },
     galleryLabel: "Note-taking app screens",
     showHint: true,
     images: [
