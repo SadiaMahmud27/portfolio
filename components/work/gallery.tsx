@@ -34,7 +34,7 @@ export function Gallery({ label, images, showHint = false }: GalleryProps) {
           </figure>
         ))}
       </div>
-      {showHint && <p className="mt-1.5 text-[13px] text-muted">Scroll sideways →</p>}
+      {showHint && <p className="mt-1.5 text-[12px] text-muted">Scroll sideways →</p>}
     </div>
   );
 }

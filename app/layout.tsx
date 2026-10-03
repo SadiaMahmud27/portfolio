@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Instrument_Serif, Outfit } from "next/font/google";
+import { Newsreader, Source_Sans_3 } from "next/font/google";
 import { ScrollReveal } from "@/components/layout/scroll-reveal";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SkipLink } from "@/components/layout/skip-link";
 import "./globals.css";
 
-const instrumentSerif = Instrument_Serif({
-  variable: "--font-instrument-serif",
+const newsreader = Newsreader({
+  variable: "--font-newsreader",
   subsets: ["latin"],
-  weight: "400",
   style: ["normal", "italic"],
+  axes: ["opsz"],
 });
 
-const outfit = Outfit({
-  variable: "--font-outfit",
+const sourceSans = Source_Sans_3({
+  variable: "--font-source-sans",
   subsets: ["latin"],
 });
 
@@ -39,7 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       data-scroll-behavior="smooth"
-      className={`${instrumentSerif.variable} ${outfit.variable}`}
+      className={`${newsreader.variable} ${sourceSans.variable}`}
     >
       <body>
         <SkipLink />

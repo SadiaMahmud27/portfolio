@@ -91,7 +91,7 @@ export function ZoomableImage({ src, alt, sizes }: ZoomableImageProps) {
         <StaticImage src={src} alt={alt} sizes={sizes} quality={90} className="w-full" />
         <span
           aria-hidden="true"
-          className="absolute right-4 bottom-4 rounded-full bg-ink/80 px-3.5 py-1.5 text-[13px] text-paper opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-visible:opacity-100"
+          className="absolute right-4 bottom-4 rounded-full bg-ink/80 px-3.5 py-1.5 text-[12px] text-paper opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-visible:opacity-100"
         >
           Click to zoom
         </span>
@@ -140,12 +140,12 @@ export function ZoomableImage({ src, alt, sizes }: ZoomableImageProps) {
           type="button"
           onClick={() => dialogRef.current?.close()}
           aria-label="Close"
-          className="fixed top-4 right-4 grid size-11 place-items-center rounded-full bg-paper text-[20px] text-ink shadow-lg"
+          className="fixed top-4 right-4 grid size-11 place-items-center rounded-full bg-paper text-[19px] text-ink shadow-lg"
         >
           ✕
         </button>
         {!zoomed && (
-          <p className="pointer-events-none fixed bottom-4 left-1/2 m-0 -translate-x-1/2 rounded-full bg-ink/70 px-3.5 py-1.5 text-[13px] text-paper max-[640px]:hidden">
+          <p className="pointer-events-none fixed bottom-4 left-1/2 m-0 -translate-x-1/2 rounded-full bg-ink/70 px-3.5 py-1.5 text-[12px] text-paper max-[640px]:hidden">
             Click image to zoom · Esc to close
           </p>
         )}

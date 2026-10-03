@@ -6,7 +6,7 @@ import { faqs } from "@/content/home";
 function FaqItem({ question, answer }: { question: string; answer: string }) {
   return (
     <details className="group border-b border-line-strong">
-      <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-[26px] text-[clamp(20px,2vw,26px)] [&::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-[26px] text-[clamp(19px,1.88vw,24px)] [&::-webkit-details-marker]:hidden">
         {question}
         <span
           aria-hidden="true"

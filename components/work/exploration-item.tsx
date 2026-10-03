@@ -19,12 +19,12 @@ export function ExplorationItem({
       className="grid grid-cols-[0.75fr_1.25fr] gap-[clamp(24px,4vw,64px)] border-b border-line-strong py-[clamp(36px,5vw,64px)] *:min-w-0 max-[860px]:grid-cols-1"
     >
       <div className="sticky top-24 self-start max-[860px]:static">
-        <span className="text-[14px] tracking-[0.1em] text-muted">{number}</span>
-        <h3 className="mt-2.5 mb-4 font-serif text-[clamp(34px,3.6vw,52px)] tracking-[-0.01em]">
+        <span className="text-[13px] tracking-[0.1em] text-muted">{number}</span>
+        <h3 className="mt-2.5 mb-4 font-serif text-[clamp(29px,3.06vw,44px)] tracking-[-0.005em]">
           {title}
         </h3>
         <TagList tags={meta} variant="meta" className="mb-[18px]" />
-        <p className="text-[16px] text-ink-2">{description}</p>
+        <p className="text-[15px] text-ink-2">{description}</p>
         {link && (
           <a
             href={link.href}

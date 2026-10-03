@@ -25,7 +25,7 @@ export function Hero() {
       <Container>
         <div className="grid grid-cols-[1.35fr_0.65fr] items-end gap-[clamp(32px,5vw,72px)] max-[900px]:grid-cols-1">
           <div>
-            <h1 className="font-serif text-[clamp(52px,8.4vw,132px)] leading-[0.95] tracking-[-0.025em]">
+            <h1 className="font-serif text-[clamp(44px,7.14vw,112px)] leading-[0.95] tracking-[-0.013em]">
               Hi, I&apos;m Sadia. I design <em>calm</em> interfaces for{" "}
               <Highlight tone="butter">busy</Highlight> <Highlight tone="blush">people.</Highlight>
             </h1>
@@ -34,7 +34,7 @@ export function Hero() {
         </div>
 
         <div className="mt-10 flex flex-wrap items-end justify-between gap-x-12 gap-y-7">
-          <p className="m-0 max-w-[520px] text-[19px] text-ink-2">
+          <p className="m-0 max-w-[520px] text-[18px] text-ink-2">
             A UI/UX designer with a background in design and communication. I bring user-focused
             ideas and teamwork to creative projects, from fintech tools to playful mobile apps.
           </p>

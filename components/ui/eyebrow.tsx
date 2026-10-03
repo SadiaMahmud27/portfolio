@@ -13,7 +13,7 @@ export function Eyebrow({ block = false, className, children }: EyebrowProps) {
     <span
       className={cn(
         block ? "flex w-fit" : "inline-flex",
-        "items-center gap-2.5 text-[13px] tracking-[0.14em] text-muted uppercase",
+        "items-center gap-2.5 text-[12px] tracking-[0.14em] text-muted uppercase",
         "before:size-2 before:rounded-full before:bg-current before:opacity-60",
         className,
       )}

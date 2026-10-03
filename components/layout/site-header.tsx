@@ -9,9 +9,9 @@ import { routes, site } from "@/content/site";
 import { cn } from "@/lib/cn";
 
 const navLinkClass = cn(
-  "inline-block rounded-full px-3.5 py-2 text-[15px] transition-[background-color] duration-200 ease-soft",
+  "inline-block rounded-full px-3.5 py-2 text-[14px] transition-[background-color] duration-200 ease-soft",
   "hover:bg-ink/6 aria-[current=page]:bg-ink/6",
-  "max-[820px]:rounded-none max-[820px]:border-b max-[820px]:border-line max-[820px]:px-0 max-[820px]:py-3.5 max-[820px]:text-[20px] max-[820px]:hover:bg-transparent",
+  "max-[820px]:rounded-none max-[820px]:border-b max-[820px]:border-line max-[820px]:px-0 max-[820px]:py-3.5 max-[820px]:text-[19px] max-[820px]:hover:bg-transparent",
 );
 
 export function SiteHeader() {
@@ -54,10 +54,10 @@ export function SiteHeader() {
         <Link
           href={routes.home}
           aria-label="Sadia Mahmud, home"
-          className="inline-flex items-baseline gap-1.5 font-serif text-[28px] leading-none"
+          className="inline-flex items-baseline gap-1.5 font-serif text-[24px] leading-none"
         >
           Sadia
-          <span className="font-sans text-[12px] tracking-[0.1em] text-muted uppercase">
+          <span className="font-sans text-[11px] tracking-[0.1em] text-muted uppercase">
             / UI·UX
           </span>
         </Link>

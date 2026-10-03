@@ -19,10 +19,10 @@ export function Contact() {
     >
       <Container className="flex flex-col items-start">
         <Eyebrow className="text-paper/60">Contact</Eyebrow>
-        <h2 className="mt-5 mb-7 max-w-[980px] font-serif text-[clamp(52px,7.4vw,112px)] tracking-[-0.025em]">
+        <h2 className="mt-5 mb-7 max-w-[980px] font-serif text-[clamp(44px,6.29vw,95px)] tracking-[-0.013em]">
           Ready to bring your vision to <em className="text-blush">life?</em>
         </h2>
-        <p className="max-w-[480px] text-[18px] text-paper/72">
+        <p className="max-w-[480px] text-[17px] text-paper/72">
           Let&apos;s make something incredible together. Reach out to discuss your project and
           create designs that resonate and inspire.
         </p>
@@ -36,7 +36,7 @@ export function Contact() {
                 href={href}
                 target="_blank"
                 rel="noopener"
-                className="inline-flex items-center gap-2 rounded-full border border-paper/25 px-4 py-2.5 text-[15px] transition-colors duration-200 hover:bg-paper hover:text-ink"
+                className="inline-flex items-center gap-2 rounded-full border border-paper/25 px-4 py-2.5 text-[14px] transition-colors duration-200 hover:bg-paper hover:text-ink"
               >
                 {icon}
                 {label}

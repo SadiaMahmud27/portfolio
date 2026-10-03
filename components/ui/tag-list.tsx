@@ -15,7 +15,7 @@ export function TagList({ tags, variant = "card", className }: TagListProps) {
   return (
     <ul className={cn("flex flex-wrap gap-2", className)}>
       {tags.map((tag) => (
-        <li key={tag} className={cn("rounded-full border text-[13px]", tagStyles[variant])}>
+        <li key={tag} className={cn("rounded-full border text-[12px]", tagStyles[variant])}>
           {tag}
         </li>
       ))}

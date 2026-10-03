@@ -23,8 +23,8 @@ type SectionTitleProps = {
 };
 
 const titleSizes = {
-  lg: "text-[clamp(44px,6vw,88px)]",
-  md: "text-[clamp(32px,3.4vw,48px)]",
+  lg: "text-[clamp(37px,5.1vw,75px)]",
+  md: "text-[clamp(27px,2.89vw,41px)]",
 };
 
 /** Large serif title. Wrap words in <em> for the italic accent. */
@@ -37,7 +37,7 @@ export function SectionTitle({
   return (
     <Tag
       className={cn(
-        "font-serif tracking-[-0.02em] [&_em]:italic",
+        "font-serif tracking-[-0.01em] [&_em]:italic",
         titleSizes[size],
         className,
       )}

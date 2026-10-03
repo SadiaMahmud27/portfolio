@@ -10,7 +10,7 @@ export function CaseFigure({ src, alt, caption }: CaseFigureProps) {
       <div className="overflow-hidden rounded-card border border-line bg-paper-2">
         <ZoomableImage src={src} alt={alt} sizes="(max-width: 960px) 100vw, 1060px" />
       </div>
-      {caption && <figcaption className="mt-3 text-[14px] text-muted">{caption}</figcaption>}
+      {caption && <figcaption className="mt-3 text-[13px] text-muted">{caption}</figcaption>}
     </figure>
   );
 }

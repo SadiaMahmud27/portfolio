@@ -6,11 +6,11 @@ function MarqueeGroup({ hidden = false }: { hidden?: boolean }) {
     <div className="flex items-center gap-9 pr-9" aria-hidden={hidden || undefined}>
       {services.map((service) => (
         <Fragment key={service.rest}>
-          <span className="font-serif text-[clamp(28px,3.6vw,48px)] whitespace-nowrap">
+          <span className="font-serif text-[clamp(24px,3.06vw,41px)] whitespace-nowrap">
             {service.emphasis && <em className="text-sky">{service.emphasis}</em>}
             {service.rest}
           </span>
-          <span className="text-[22px] text-butter" aria-hidden={hidden ? undefined : true}>
+          <span className="text-[21px] text-butter" aria-hidden={hidden ? undefined : true}>
             ✦
           </span>
         </Fragment>

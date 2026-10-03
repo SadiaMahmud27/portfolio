@@ -28,11 +28,11 @@ export function SwipeGrid({ items }: { items: SwipeItem[] }) {
             toneBg[item.tone],
           )}
         >
-          <span aria-hidden="true" className="mb-auto text-[40px] leading-none">
+          <span aria-hidden="true" className="mb-auto text-[38px] leading-none">
             {item.arrow}
           </span>
-          <h3 className="mt-6 mb-1.5 font-serif text-[26px]">{item.title}</h3>
-          <p className="m-0 text-[15px]! text-ink-2">{item.text}</p>
+          <h3 className="mt-6 mb-1.5 font-serif text-[22px]">{item.title}</h3>
+          <p className="m-0 text-[14px]! text-ink-2">{item.text}</p>
         </li>
       ))}
     </ul>

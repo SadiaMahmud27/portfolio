@@ -17,10 +17,10 @@ export function NextProject({ href, title, image }: NextProjectData) {
         className="group grid grid-cols-2 items-center gap-8 border-t border-line-strong py-[clamp(48px,7vw,96px)] max-[760px]:grid-cols-1"
       >
         <div>
-          <span className="text-[13px] tracking-[0.14em] text-muted uppercase">
+          <span className="text-[12px] tracking-[0.14em] text-muted uppercase">
             Next case study
           </span>
-          <span className="mt-3 inline-block font-serif text-[clamp(48px,7vw,104px)] leading-[0.95] tracking-[-0.03em] hover:[&_em]:underline hover:[&_em]:decoration-2 hover:[&_em]:underline-offset-8">
+          <span className="mt-3 inline-block font-serif text-[clamp(41px,5.95vw,88px)] leading-[0.95] tracking-[-0.015em] hover:[&_em]:underline hover:[&_em]:decoration-2 hover:[&_em]:underline-offset-8">
             {title}
           </span>
         </div>

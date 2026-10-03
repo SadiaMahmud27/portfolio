@@ -35,17 +35,17 @@ export function About() {
     <section id="about" className="bg-paper-2 py-[clamp(72px,10vw,140px)]">
       <Container className="grid grid-cols-[0.9fr_1.1fr] items-center gap-[clamp(40px,6vw,96px)] max-[900px]:grid-cols-1">
         <AboutPhotos />
-        <div data-reveal className="[&>p]:text-[18px] [&>p]:text-ink-2">
+        <div data-reveal className="[&>p]:text-[17px] [&>p]:text-ink-2">
           <div className="flex flex-wrap items-center gap-3.5">
             <Eyebrow>About me</Eyebrow>
-            <span className="inline-block -rotate-4 rounded-full border border-ink bg-butter px-4 py-2 text-[14px]">
+            <span className="inline-block -rotate-4 rounded-full border border-ink bg-butter px-4 py-2 text-[13px]">
               curious by default ✦
             </span>
           </div>
           <SectionTitle className="mt-[18px] mb-7">
             Empathy first, <em>pixels</em> second.
           </SectionTitle>
-          <p className="first-letter:float-left first-letter:pt-2 first-letter:pr-2.5 first-letter:font-serif first-letter:text-[84px] first-letter:leading-[0.8]">
+          <p className="first-letter:float-left first-letter:pt-2 first-letter:pr-2.5 first-letter:font-serif first-letter:text-[71px] first-letter:leading-[0.8]">
             I&apos;m a curious, creative UI/UX designer who loves turning ideas into digital
             experiences that feel natural and delightful to use. I solve problems with empathy and
             attention to detail, and I like experimenting with new approaches to make interfaces

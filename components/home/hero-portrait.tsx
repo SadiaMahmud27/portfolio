@@ -33,14 +33,14 @@ function HeroBadge() {
         <text
           textLength="236"
           lengthAdjust="spacing"
-          className="fill-paper font-sans text-[10.5px] tracking-[0.22em] uppercase"
+          className="fill-paper font-sans text-[10px] tracking-[0.22em] uppercase"
         >
           <textPath href="#badge-circle" textLength="236" lengthAdjust="spacing">
             UI/UX Designer ✦ Dhaka ✦{" "}
           </textPath>
         </text>
       </svg>
-      <span className="text-[28px] leading-none text-butter">✦</span>
+      <span className="text-[26px] leading-none text-butter">✦</span>
     </div>
   );
 }

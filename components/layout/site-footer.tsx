@@ -12,13 +12,13 @@ export function SiteFooter({ links, showBigName = false }: SiteFooterProps) {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-ink pb-8 text-[14px] text-paper/65">
+    <footer className="bg-ink pb-8 text-[13px] text-paper/65">
       <Container className="@container">
         {showBigName && (
-          // The name is ~4.92em wide; the 19.5cqi cap keeps it inside the container once it stops growing
+          // The name is ~6.3em wide; the 15.5cqi cap keeps it inside the container once it stops growing
           <div
             aria-hidden="true"
-            className="overflow-hidden pt-12 pb-8 font-serif text-[length:clamp(48px,min(17vw,19.5cqi),260px)] leading-[0.8] tracking-[-0.04em] whitespace-nowrap text-paper"
+            className="overflow-hidden pt-12 pb-8 font-serif text-[length:clamp(40px,min(13.5vw,15.5cqi),220px)] leading-[0.8] tracking-[-0.02em] whitespace-nowrap text-paper"
           >
             Sadia <em className="text-sky">Mahmud</em>
           </div>

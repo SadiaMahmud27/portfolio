@@ -33,14 +33,14 @@ export function TableOfContents({ items }: { items: TocItem[] }) {
       aria-label="On this page"
       className="sticky top-[104px] self-start max-[960px]:hidden"
     >
-      <p className="mb-3.5 text-[13px] tracking-[0.12em] text-muted uppercase">On this page</p>
+      <p className="mb-3.5 text-[12px] tracking-[0.12em] text-muted uppercase">On this page</p>
       <ol className="grid gap-0.5 border-l border-line-strong">
         {items.map(({ id, label }) => (
           <li key={id}>
             <a
               href={`#${id}`}
               className={cn(
-                "-ml-px block border-l-2 py-1.5 pl-4 text-[15px] transition-colors duration-200 hover:text-ink",
+                "-ml-px block border-l-2 py-1.5 pl-4 text-[14px] transition-colors duration-200 hover:text-ink",
                 activeId === id ? "border-ink text-ink" : "border-transparent text-muted",
               )}
             >

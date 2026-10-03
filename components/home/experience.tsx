@@ -13,12 +13,12 @@ function ExperienceItem({ date, role, company, points }: ExperienceItemProps) {
       data-reveal
       className="grid grid-cols-[220px_1fr_1.3fr] gap-8 border-b border-line-strong py-9 max-[900px]:grid-cols-1 max-[900px]:gap-3.5"
     >
-      <p className="text-[15px] text-muted">{date}</p>
-      <h3 className="font-serif text-[clamp(28px,2.8vw,38px)] leading-[1.1]">
+      <p className="text-[14px] text-muted">{date}</p>
+      <h3 className="font-serif text-[clamp(24px,2.38vw,32px)] leading-[1.1]">
         {role}
-        <span className="mt-2 block font-sans text-[15px] text-muted">{company}</span>
+        <span className="mt-2 block font-sans text-[14px] text-muted">{company}</span>
       </h3>
-      <ol className="grid gap-3 text-[16px] text-ink-2">
+      <ol className="grid gap-3 text-[15px] text-ink-2">
         {points.map((point) => (
           <li
             key={point}

@@ -29,9 +29,9 @@ const portrait = await readFile(join(process.cwd(), "assets/og/portrait.jpg"), "
 
 export default async function OpengraphImage() {
   const [serif, serifItalic, sans] = await Promise.all([
-    loadGoogleFont("Instrument+Serif", firstName),
-    loadGoogleFont("Instrument+Serif:ital@1", lastName),
-    loadGoogleFont("Outfit:wght@400", `${tagline}${footer}UI·UX`),
+    loadGoogleFont("Newsreader", firstName),
+    loadGoogleFont("Newsreader:ital@1", lastName),
+    loadGoogleFont("Source+Sans+3:wght@400", `${tagline}${footer}UI·UX`),
   ]);
 
   return new ImageResponse(
@@ -46,12 +46,12 @@ export default async function OpengraphImage() {
           background: colors.paper,
           color: colors.ink,
           padding: "64px 80px",
-          fontFamily: "Outfit",
+          fontFamily: "Source Sans 3",
         }}
       >
         {/* Logo, as in the site header */}
         <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
-          <span style={{ fontFamily: "Instrument Serif", fontSize: 44 }}>{firstName}</span>
+          <span style={{ fontFamily: "Newsreader", fontSize: 44 }}>{firstName}</span>
           <span style={{ fontSize: 18, letterSpacing: 2, color: colors.muted }}>/ UI·UX</span>
         </div>
 
@@ -60,10 +60,10 @@ export default async function OpengraphImage() {
             <div
               style={{
                 display: "flex",
-                fontFamily: "Instrument Serif",
-                fontSize: 148,
+                fontFamily: "Newsreader",
+                fontSize: 128,
                 lineHeight: 1,
-                letterSpacing: -3,
+                letterSpacing: -2,
               }}
             >
               <span style={{ marginRight: 36 }}>{firstName}</span>
@@ -105,9 +105,9 @@ export default async function OpengraphImage() {
     {
       ...size,
       fonts: [
-        { name: "Instrument Serif", data: serif, style: "normal", weight: 400 },
-        { name: "Instrument Serif", data: serifItalic, style: "italic", weight: 400 },
-        { name: "Outfit", data: sans, style: "normal", weight: 400 },
+        { name: "Newsreader", data: serif, style: "normal", weight: 400 },
+        { name: "Newsreader", data: serifItalic, style: "italic", weight: 400 },
+        { name: "Source Sans 3", data: sans, style: "normal", weight: 400 },
       ],
     },
   );
