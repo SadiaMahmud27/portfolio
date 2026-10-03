@@ -11,6 +11,7 @@ import { SwipeGrid } from "@/components/case-study/swipe-grid";
 import { ButtonLink } from "@/components/ui/button";
 import { images } from "@/content/images";
 import { routes } from "@/content/site";
+import { pageOpenGraph } from "@/lib/metadata";
 
 const SITE_URL = "https://www.inboxswipe.com/";
 
@@ -18,7 +19,10 @@ export const metadata: Metadata = {
   title: "InboxSwipe | Case study · Sadia Mahmud",
   description:
     "Designing a gesture-based email app that turns inbox cleaning into a quick, satisfying swipe.",
-  openGraph: { images: [images.inboxswipeCover.src] },
+  openGraph: pageOpenGraph(
+    "InboxSwipe | Case study · Sadia Mahmud",
+    "Designing a gesture-based email app that turns inbox cleaning into a quick, satisfying swipe.",
+  ),
 };
 
 const toc = [

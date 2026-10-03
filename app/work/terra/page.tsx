@@ -9,12 +9,16 @@ import { StepList } from "@/components/case-study/step-list";
 import { SwatchList } from "@/components/case-study/swatch-list";
 import { images } from "@/content/images";
 import { routes } from "@/content/site";
+import { pageOpenGraph } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: "Terra: Eco Habit Tracker | Case study · Sadia Mahmud",
   description:
     "Designing an eco habit tracker that turns sustainable living into a simple daily practice.",
-  openGraph: { images: [images.terraCover.src] },
+  openGraph: pageOpenGraph(
+    "Terra: Eco Habit Tracker | Case study · Sadia Mahmud",
+    "Designing an eco habit tracker that turns sustainable living into a simple daily practice.",
+  ),
 };
 
 const toc = [

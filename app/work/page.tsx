@@ -7,10 +7,15 @@ import { PageHero } from "@/components/work/page-hero";
 import { WorkList } from "@/components/work/work-list";
 import { footerLinks } from "@/content/site";
 import { caseStudies, explorations } from "@/content/work";
+import { pageOpenGraph } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: "Work | Sadia Mahmud",
   description: "Case studies and design explorations by Sadia Mahmud, UI/UX designer.",
+  openGraph: pageOpenGraph(
+    "Work | Sadia Mahmud",
+    "Case studies and design explorations by Sadia Mahmud, UI/UX designer.",
+  ),
 };
 
 export default function WorkPage() {

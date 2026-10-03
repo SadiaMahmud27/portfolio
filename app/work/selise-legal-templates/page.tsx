@@ -9,6 +9,7 @@ import { SwatchList } from "@/components/case-study/swatch-list";
 import { ButtonLink } from "@/components/ui/button";
 import { images } from "@/content/images";
 import { routes } from "@/content/site";
+import { pageOpenGraph } from "@/lib/metadata";
 
 const SITE_URL = "https://legal-templates.com/en";
 
@@ -16,7 +17,10 @@ export const metadata: Metadata = {
   title: "Selise Legal Templates | Case study · Sadia Mahmud",
   description:
     "Designing a free, bilingual legal document generator that goes from blank page to signed contract in minutes.",
-  openGraph: { images: [images.seliseCover.src] },
+  openGraph: pageOpenGraph(
+    "Selise Legal Templates | Case study · Sadia Mahmud",
+    "Designing a free, bilingual legal document generator that goes from blank page to signed contract in minutes.",
+  ),
 };
 
 const toc = [

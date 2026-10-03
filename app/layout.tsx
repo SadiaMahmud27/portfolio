@@ -24,6 +24,14 @@ export const metadata: Metadata = {
   title: "Sadia Mahmud | UI/UX Designer, Dhaka",
   description:
     "Sadia Mahmud is a UI/UX designer in Dhaka, Bangladesh, designing mobile apps, web apps, dashboards and illustration.",
+  // The share image itself comes from app/opengraph-image.tsx
+  openGraph: {
+    type: "website",
+    siteName: "Sadia Mahmud",
+    title: "Sadia Mahmud | UI/UX Designer",
+    description: "Mobile apps, web apps, dashboards and illustration.",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
