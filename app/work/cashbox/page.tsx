@@ -43,7 +43,7 @@ export default function CashboxPage() {
       meta={[
         { term: "Role", value: "Product designer" },
         { term: "Duration", value: "4–6 months" },
-        { term: "Company", value: "Hishabee" },
+        { term: "Company", value: "Hishabee ↗", href: "https://hishabee.io" },
         { term: "Scope", value: "V1 & V2, mobile" },
       ]}
       cover={{
