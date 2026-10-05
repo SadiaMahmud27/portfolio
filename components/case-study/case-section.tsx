@@ -18,7 +18,7 @@ export function CaseSection({ id, label, title, children }: CaseSectionProps) {
       <span className="mb-3.5 block text-[12px] tracking-[0.14em] text-muted uppercase">
         {label}
       </span>
-      <h2 className="mb-6 font-serif text-[clamp(32px,3.74vw,54px)] tracking-[-0.01em] [&_em]:italic">
+      <h2 className="mb-6 font-display text-[clamp(32px,3.74vw,54px)] tracking-[-0.01em] [&_em]:italic">
         {title}
       </h2>
       {children}

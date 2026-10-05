@@ -12,7 +12,7 @@ export function EmailCard() {
       {/* Stays on one line: the address renders at ~15.6x its font size, so 6cqi always fits */}
       <p
         id={ADDRESS_ID}
-        className="m-0 font-serif text-[length:min(60px,6cqi)] leading-[1.1] whitespace-nowrap select-all"
+        className="m-0 font-display text-[length:min(60px,6cqi)] leading-[1.1] whitespace-nowrap select-all"
       >
         {site.email}
       </p>

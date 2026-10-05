@@ -37,7 +37,7 @@ export function WorkCard({
     >
       <div className="flex flex-col gap-5 p-[clamp(28px,4vw,52px)]">
         <span className="text-[13px] tracking-[0.1em] text-ink/60">{index}</span>
-        <Heading className="font-serif text-[clamp(34px,3.91vw,58px)] tracking-[-0.01em]">
+        <Heading className="font-display text-[clamp(34px,3.91vw,58px)] tracking-[-0.01em]">
           {title}
         </Heading>
         <p className="m-0 max-w-[460px] text-ink-2">{description}</p>

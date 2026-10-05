@@ -14,7 +14,7 @@ export function CtaBand({ title, text, action }: CtaBandProps) {
     <section className="rounded-t-card bg-ink pt-[clamp(64px,9vw,120px)] pb-10 text-paper">
       <Container className="flex flex-wrap items-end justify-between gap-8">
         <div>
-          <h2 className="max-w-[820px] font-serif text-[clamp(37px,5.44vw,82px)] tracking-[-0.01em] [&_em]:text-blush">
+          <h2 className="max-w-[820px] font-display text-[clamp(37px,5.44vw,82px)] tracking-[-0.01em] [&_em]:text-blush">
             {title}
           </h2>
           <p className="mt-5 mb-0 max-w-[520px] text-paper/70">{text}</p>

@@ -43,7 +43,7 @@
  * Arial/Times fallback: glyphs the fonts lack (→, ✦) must fall back to these stacks.
  */
 @theme {
-  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
   --font-sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 

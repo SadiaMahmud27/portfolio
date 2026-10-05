@@ -25,7 +25,7 @@ export function CardGrid({ items, columns = 2 }: CardGridProps) {
           className="flex flex-col gap-2 rounded-card-sm border border-line bg-white p-6"
         >
           <span className="text-[12px] tracking-[0.08em] text-muted">{item.kicker}</span>
-          <h3 className="font-serif text-[22px] leading-[1.15]">{item.title}</h3>
+          <h3 className="font-display text-[22px] leading-[1.15]">{item.title}</h3>
           <p className="m-0 text-[15px]!">{item.text}</p>
         </li>
       ))}

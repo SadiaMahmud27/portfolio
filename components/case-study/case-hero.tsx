@@ -30,7 +30,7 @@ export function CaseHero({ eyebrow, title, summary, meta }: CaseHeroProps) {
         <Eyebrow block className="mb-5">
           {eyebrow}
         </Eyebrow>
-        <h1 className="font-serif text-[clamp(54px,9.35vw,150px)] leading-[0.88] tracking-[-0.018em]">
+        <h1 className="font-display text-[clamp(54px,9.35vw,150px)] leading-[0.88] tracking-[-0.018em]">
           {title}
         </h1>
         <p className="mt-8 mb-0 max-w-[760px] text-[clamp(19px,1.88vw,24px)] leading-[1.4] text-ink-2">

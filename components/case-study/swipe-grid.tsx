@@ -31,7 +31,7 @@ export function SwipeGrid({ items }: { items: SwipeItem[] }) {
           <span aria-hidden="true" className="mb-auto text-[38px] leading-none">
             {item.arrow}
           </span>
-          <h3 className="mt-6 mb-1.5 font-serif text-[22px]">{item.title}</h3>
+          <h3 className="mt-6 mb-1.5 font-display text-[22px]">{item.title}</h3>
           <p className="m-0 text-[14px]! text-ink-2">{item.text}</p>
         </li>
       ))}

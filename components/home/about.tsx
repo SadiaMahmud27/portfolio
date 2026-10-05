@@ -45,7 +45,7 @@ export function About() {
           <SectionTitle className="mt-[18px] mb-7">
             Empathy first, <em>pixels</em> second.
           </SectionTitle>
-          <p className="first-letter:float-left first-letter:pt-2 first-letter:pr-2.5 first-letter:font-serif first-letter:text-[71px] first-letter:leading-[0.8]">
+          <p className="first-letter:float-left first-letter:pt-2 first-letter:pr-2.5 first-letter:font-display first-letter:text-[71px] first-letter:leading-[0.8]">
             I&apos;m a curious, creative UI/UX designer who loves turning ideas into digital
             experiences that feel natural and delightful to use. I solve problems with empathy and
             attention to detail, and I like experimenting with new approaches to make interfaces

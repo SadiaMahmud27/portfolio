@@ -21,7 +21,7 @@ export function MiniCard({ href, title, meta, image }: MiniCardProps) {
         />
       </div>
       <div className="flex items-baseline justify-between gap-3">
-        <span className="font-serif text-[24px]">{title}</span>
+        <span className="font-display text-[24px]">{title}</span>
         <span className="text-[13px] whitespace-nowrap text-muted">{meta}</span>
       </div>
     </Link>

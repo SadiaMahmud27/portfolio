@@ -15,10 +15,10 @@ export function SiteFooter({ links, showBigName = false }: SiteFooterProps) {
     <footer className="bg-ink pb-8 text-[13px] text-paper/65">
       <Container className="@container">
         {showBigName && (
-          // The name is ~6.3em wide; the 15.5cqi cap keeps it inside the container once it stops growing
+          // The name is ~6.8em wide; the 14.5cqi cap keeps it inside the container once it stops growing
           <div
             aria-hidden="true"
-            className="overflow-hidden pt-12 pb-8 font-serif text-[length:clamp(40px,min(13.5vw,15.5cqi),220px)] leading-[0.8] tracking-[-0.02em] whitespace-nowrap text-paper"
+            className="overflow-hidden pt-12 pb-8 font-display text-[length:clamp(40px,min(12.5vw,14.5cqi),220px)] leading-[0.8] tracking-[-0.02em] whitespace-nowrap text-paper"
           >
             Sadia <em className="text-sky">Mahmud</em>
           </div>

@@ -27,7 +27,7 @@ const titleSizes = {
   md: "text-[clamp(27px,2.89vw,41px)]",
 };
 
-/** Large serif title. Wrap words in <em> for the italic accent. */
+/** Large display title. Wrap words in <em> for the italic accent. */
 export function SectionTitle({
   as: Tag = "h2",
   size = "lg",
@@ -37,7 +37,7 @@ export function SectionTitle({
   return (
     <Tag
       className={cn(
-        "font-serif tracking-[-0.01em] [&_em]:italic",
+        "font-display tracking-[-0.01em] [&_em]:italic",
         titleSizes[size],
         className,
       )}

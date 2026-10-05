@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Newsreader, Source_Sans_3 } from "next/font/google";
+import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import { ScrollReveal } from "@/components/layout/scroll-reveal";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SkipLink } from "@/components/layout/skip-link";
 import "./globals.css";
 
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
   subsets: ["latin"],
-  style: ["normal", "italic"],
   axes: ["opsz"],
+  style: ["normal", "italic"],
 });
 
 const sourceSans = Source_Sans_3({
@@ -39,7 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       data-scroll-behavior="smooth"
-      className={`${newsreader.variable} ${sourceSans.variable}`}
+      className={`${sourceSerif.variable} ${sourceSans.variable}`}
     >
       <body>
         <SkipLink />

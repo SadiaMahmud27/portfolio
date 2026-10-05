@@ -23,7 +23,7 @@ export function buttonClassName({
   size = "md",
 }: { variant?: Variant; size?: Size } = {}) {
   return cn(
-    "group/btn inline-flex cursor-pointer items-center gap-2.5 rounded-full border text-[14px] leading-none font-medium",
+    "group/btn inline-flex cursor-pointer items-center gap-2.5 rounded-full border text-[16px] leading-none font-medium",
     "transition-[background-color,color,border-color,translate] duration-250 ease-soft hover:-translate-y-0.5",
     sizes[size],
     variants[variant],

@@ -19,7 +19,7 @@ export function Contact() {
     >
       <Container className="flex flex-col items-start">
         <Eyebrow className="text-paper/60">Contact</Eyebrow>
-        <h2 className="mt-5 mb-7 max-w-[980px] font-serif text-[clamp(44px,6.29vw,95px)] tracking-[-0.013em]">
+        <h2 className="mt-5 mb-7 max-w-[980px] font-display text-[clamp(44px,6.29vw,95px)] tracking-[-0.013em]">
           Ready to bring your vision to <em className="text-blush">life?</em>
         </h2>
         <p className="max-w-[480px] text-[17px] text-paper/72">
