@@ -22,7 +22,7 @@ const colors = {
 
 const firstName = "Sadia";
 const lastName = "Mahmud";
-const tagline = "I design calm interfaces for busy people.";
+const tagline = "I design interfaces that make sense at first glance.";
 const footer = `UI/UX Designer · ${site.location}`;
 
 const portrait = await readFile(join(process.cwd(), "assets/og/portrait.jpg"), "base64");

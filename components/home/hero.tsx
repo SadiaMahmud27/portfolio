@@ -26,8 +26,8 @@ export function Hero() {
         <div className="grid grid-cols-[1.35fr_0.65fr] items-end gap-[clamp(32px,5vw,72px)] max-[900px]:grid-cols-1">
           <div>
             <h1 className="font-serif text-[clamp(44px,7.14vw,112px)] leading-[0.95] tracking-[-0.013em]">
-              Hi, I&apos;m Sadia. I design <em>calm</em> interfaces for{" "}
-              <Highlight tone="butter">busy</Highlight> <Highlight tone="blush">people.</Highlight>
+              Hi, I&apos;m Sadia. I design interfaces that <em>make sense</em> at{" "}
+              <Highlight tone="butter">first</Highlight> <Highlight tone="blush">glance.</Highlight>
             </h1>
           </div>
           <HeroPortrait />
@@ -35,8 +35,8 @@ export function Hero() {
 
         <div className="mt-10 flex flex-wrap items-end justify-between gap-x-12 gap-y-7">
           <p className="m-0 max-w-[520px] text-[18px] text-ink-2">
-            A UI/UX designer with a background in design and communication. I bring user-focused
-            ideas and teamwork to creative projects, from fintech tools to playful mobile apps.
+            If someone gets stuck, I blame the design, not them. That idea, borrowed from Don
+            Norman, shapes everything I make, from fintech tools to playful mobile apps.
           </p>
           <div className="flex flex-wrap gap-3">
             <ButtonLink href="#work" variant="solid">

@@ -9,7 +9,7 @@ export const stats = [
   {
     term: "Built from scratch",
     value: "0→1",
-    label: "Prime Neo-pay and Cashbox, from first sketch",
+    label: "Cashbox, from first sketch to two releases",
   },
 ];
 
@@ -107,7 +107,6 @@ export const experience = [
       "Built and improved 10+ core product modules across mobile, web and internal tools using reusable components.",
       "Established UI patterns and component standards across Dokan, Paikari, Global Landing and the Internal Dashboard.",
       "Delivered production-ready assets, specs and edge-case states, reducing implementation gaps.",
-      "Led 0→1 design for Prime Neo-pay, defining its visual language, components and interaction patterns.",
     ],
   },
   {
