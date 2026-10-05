@@ -22,15 +22,15 @@ const colors = {
 
 const firstName = "Sadia";
 const lastName = "Mahmud";
-const tagline = "I design interfaces that make sense at first glance.";
+const tagline = "I shape complex systems into simple, intuitive experiences.";
 const footer = `UI/UX Designer · ${site.location}`;
 
 const portrait = await readFile(join(process.cwd(), "assets/og/portrait.jpg"), "base64");
 
 export default async function OpengraphImage() {
-  const [serif, serifItalic, sans] = await Promise.all([
-    loadGoogleFont("Newsreader", firstName),
-    loadGoogleFont("Newsreader:ital@1", lastName),
+  const [display, displayItalic, sans] = await Promise.all([
+    loadGoogleFont("Source+Serif+4", firstName),
+    loadGoogleFont("Source+Serif+4:ital@1", lastName),
     loadGoogleFont("Source+Sans+3:wght@400", `${tagline}${footer}UI·UX`),
   ]);
 
@@ -51,7 +51,7 @@ export default async function OpengraphImage() {
       >
         {/* Logo, as in the site header */}
         <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
-          <span style={{ fontFamily: "Newsreader", fontSize: 44 }}>{firstName}</span>
+          <span style={{ fontFamily: "Source Serif 4", fontSize: 44 }}>{firstName}</span>
           <span style={{ fontSize: 18, letterSpacing: 2, color: colors.muted }}>/ UI·UX</span>
         </div>
 
@@ -60,7 +60,7 @@ export default async function OpengraphImage() {
             <div
               style={{
                 display: "flex",
-                fontFamily: "Newsreader",
+                fontFamily: "Source Serif 4",
                 fontSize: 128,
                 lineHeight: 1,
                 letterSpacing: -2,
@@ -105,8 +105,8 @@ export default async function OpengraphImage() {
     {
       ...size,
       fonts: [
-        { name: "Newsreader", data: serif, style: "normal", weight: 400 },
-        { name: "Newsreader", data: serifItalic, style: "italic", weight: 400 },
+        { name: "Source Serif 4", data: display, style: "normal", weight: 400 },
+        { name: "Source Serif 4", data: displayItalic, style: "italic", weight: 400 },
         { name: "Source Sans 3", data: sans, style: "normal", weight: 400 },
       ],
     },

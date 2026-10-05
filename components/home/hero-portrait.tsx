@@ -8,7 +8,9 @@ export function HeroPortrait() {
         <Image
           src={images.aboutPortrait}
           alt="Portrait of Sadia Mahmud smiling"
-          sizes="(max-width: 900px) 240px, 380px"
+          // The square photo fills the 4:5 frame by height, so it renders ~1.25x the frame's width
+          sizes="(max-width: 900px) 240px, 475px"
+          quality={90}
           loading="eager"
           fetchPriority="high"
           className="h-full w-full object-cover"
