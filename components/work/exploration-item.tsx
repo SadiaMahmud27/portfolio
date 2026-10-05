@@ -8,7 +8,7 @@ export function ExplorationItem({
   title,
   meta,
   description,
-  link,
+  links,
   galleryLabel,
   showHint,
   images,
@@ -20,20 +20,25 @@ export function ExplorationItem({
     >
       <div className="sticky top-24 self-start max-[860px]:static">
         <span className="text-[13px] tracking-[0.1em] text-muted">{number}</span>
-        <h3 className="mt-2.5 mb-4 font-serif text-[clamp(29px,3.06vw,44px)] tracking-[-0.005em]">
+        <h3 className="mt-2.5 mb-4 font-display text-[clamp(29px,3.06vw,44px)] tracking-[-0.005em]">
           {title}
         </h3>
         <TagList tags={meta} variant="meta" className="mb-[18px]" />
         <p className="text-[15px] text-ink-2">{description}</p>
-        {link && (
-          <a
-            href={link.href}
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center gap-2 border-b border-ink pb-0.5 font-medium"
-          >
-            {link.label}
-          </a>
+        {links.length > 0 && (
+          <div className="flex flex-wrap gap-x-6 gap-y-3">
+            {links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center gap-2 border-b border-ink pb-0.5 font-medium"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
         )}
       </div>
       <Gallery label={galleryLabel} images={images} showHint={showHint} />

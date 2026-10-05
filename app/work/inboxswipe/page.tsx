@@ -62,13 +62,13 @@ export default function InboxSwipePage() {
       cover={{ src: images.inboxswipeCover, alt: "InboxSwipe onboarding and inbox screens" }}
       toc={toc}
       next={{
-        href: routes.selise,
+        href: routes.terra,
         title: (
           <>
-            Selise Legal <em>Templates</em> →
+            Terra: Eco <em>Habit Tracker</em> →
           </>
         ),
-        image: images.seliseCover,
+        image: images.terraCover,
       }}
     >
       <CaseSection

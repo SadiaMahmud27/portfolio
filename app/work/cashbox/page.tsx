@@ -52,13 +52,13 @@ export default function CashboxPage() {
       }}
       toc={toc}
       next={{
-        href: routes.inboxswipe,
+        href: routes.selise,
         title: (
           <>
-            Inbox<em>Swipe</em> →
+            Selise Legal <em>Templates</em> →
           </>
         ),
-        image: images.inboxswipeCover,
+        image: images.seliseCover,
       }}
     >
       <CaseSection

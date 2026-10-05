@@ -56,13 +56,13 @@ export default function SeliseLegalTemplatesPage() {
       }}
       toc={toc}
       next={{
-        href: routes.terra,
+        href: routes.inboxswipe,
         title: (
           <>
-            Terra: Eco <em>Habit Tracker</em> →
+            Inbox<em>Swipe</em> →
           </>
         ),
-        image: images.terraCover,
+        image: images.inboxswipeCover,
       }}
     >
       <CaseSection
