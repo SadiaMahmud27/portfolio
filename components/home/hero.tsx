@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { HeroPortrait } from "@/components/home/hero-portrait";
+import { SocialIconLinks } from "@/components/home/social-icon-links";
 import { Stats } from "@/components/home/stats";
 import { ButtonArrow, ButtonLink } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
@@ -48,7 +49,7 @@ export function Hero() {
                 <ButtonLink href="#work" variant="solid">
                   See selected work <ButtonArrow>↓</ButtonArrow>
                 </ButtonLink>
-                <ButtonLink href="#contact">Get in touch</ButtonLink>
+                <SocialIconLinks />
               </div>
             </div>
           </div>

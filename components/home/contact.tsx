@@ -2,12 +2,13 @@ import type { ReactNode } from "react";
 import { EmailCard } from "@/components/home/email-card";
 import { Container } from "@/components/ui/container";
 import { Eyebrow } from "@/components/ui/eyebrow";
-import { DribbbleIcon, XIcon } from "@/components/ui/icons";
+import { DribbbleIcon, GitHubIcon, LinkedInIcon } from "@/components/ui/icons";
 import { site } from "@/content/site";
 
 const socials: { label: string; href: string; icon?: ReactNode }[] = [
+  { label: "LinkedIn", href: site.linkedinUrl, icon: <LinkedInIcon className="size-4 fill-current" /> },
   { label: "Dribbble", href: site.dribbbleUrl, icon: <DribbbleIcon className="size-4 fill-current" /> },
-  { label: "X / Twitter", href: site.xUrl, icon: <XIcon className="size-4 fill-current" /> },
+  { label: "GitHub", href: site.githubUrl, icon: <GitHubIcon className="size-4 fill-current" /> },
   { label: "Resume ↗", href: site.resumeUrl },
 ];
 

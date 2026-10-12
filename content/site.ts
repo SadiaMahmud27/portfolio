@@ -4,7 +4,8 @@ export const site = {
   email: "contact.sadiamahmud@gmail.com",
   resumeUrl: "https://rxresu.me/sadia.mahmud.027/sadia-mahmud",
   dribbbleUrl: "https://dribbble.com/Sadia_Mahmud",
-  xUrl: "https://x.com/sadia54886213",
+  linkedinUrl: "https://www.linkedin.com/in/mahmud-sadia",
+  githubUrl: "https://github.com/SadiaMahmud27",
 };
 
 export const routes = {
@@ -22,17 +23,20 @@ export const footerLinks = {
   home: [
     { label: "Work", href: routes.work },
     { label: "FAQ", href: "#faq" },
+    { label: "LinkedIn", href: site.linkedinUrl, external: true },
     { label: "Dribbble", href: site.dribbbleUrl, external: true },
     { label: "Back to top ↑", href: "#main" },
   ],
   work: [
     { label: "Home", href: routes.home },
+    { label: "LinkedIn", href: site.linkedinUrl, external: true },
     { label: "Dribbble", href: site.dribbbleUrl, external: true },
     { label: "Email", href: `mailto:${site.email}` },
   ],
   caseStudy: [
     { label: "Home", href: routes.home },
     { label: "Work", href: routes.work },
+    { label: "LinkedIn", href: site.linkedinUrl, external: true },
     { label: "Dribbble", href: site.dribbbleUrl, external: true },
     { label: "Email", href: `mailto:${site.email}` },
   ],

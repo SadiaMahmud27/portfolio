@@ -7,7 +7,7 @@ type Size = "md" | "sm";
 
 // "plain" leaves border and background colours to the caller.
 const variants: Record<Variant, string> = {
-  solid: "border-ink bg-ink text-paper hover:bg-black",
+  solid: "border-ink bg-ink text-paper hover:border-butter hover:bg-butter hover:text-ink",
   ghost: "border-ink bg-transparent hover:bg-ink hover:text-paper",
   light: "border-paper bg-transparent text-paper hover:bg-paper hover:text-ink",
   plain: "",
